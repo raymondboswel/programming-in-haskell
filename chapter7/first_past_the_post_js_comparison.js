@@ -2,7 +2,7 @@
 
 let votes = ["Red", "Blue", "Green", "Blue", "Blue", "Red"];
 
-function count(vote) {
+function count(vote) { //How testable is this?
   let count = 0;
   for (i=0; i<count.length; i++) {
     if(votes[i] == vote) {
